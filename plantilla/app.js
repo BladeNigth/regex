@@ -1,6 +1,6 @@
 const input = document.getElementById("password");
 
-const expresion = /^[A-Z]{1}[0-9]{1,3}$/
+const expresion = /^[A-Z]{​​1}​​[0-9]{​​3}​​[a-zA-Z]{​​3}​​[!-/:-@[-`{​​-}]{​​3}​​$/
 
 input.addEventListener("keyup", e => {
    console.log(e.target.value);
